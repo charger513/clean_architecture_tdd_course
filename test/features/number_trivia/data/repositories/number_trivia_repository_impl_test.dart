@@ -49,7 +49,7 @@ void main() {
   }
 
   runTestOffline(Function body) {
-    group('device is online', () {
+    group('device is offline', () {
       setUp(() {
         when(mockNetworkInfo.isConnected).thenAnswer((_) async => false);
       });
