@@ -53,10 +53,6 @@ class MockInternetConnectionChecker extends _i1.Mock
       super.noSuchMethod(Invocation.setter(#checkInterval, _checkInterval),
           returnValueForMissingStub: null);
   @override
-  List<_i2.AddressCheckResult> get lastTryResults => (super.noSuchMethod(
-      Invocation.getter(#lastTryResults),
-      returnValue: <_i2.AddressCheckResult>[]) as List<_i2.AddressCheckResult>);
-  @override
   _i3.Future<bool> get hasConnection =>
       (super.noSuchMethod(Invocation.getter(#hasConnection),
           returnValue: Future<bool>.value(false)) as _i3.Future<bool>);
